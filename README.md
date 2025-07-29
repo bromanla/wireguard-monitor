@@ -36,17 +36,15 @@ Create a `.env` file in your project folder with these:
 ## 📦 Installation
 
 1. Download the latest version:
-
-```bash
-wget https://github.com/bromanla/wireguard-monitor/releases/latest/download/wg-monitor
-wget https://raw.githubusercontent.com/bromanla/wireguard-monitor/refs/heads/main/entrypoint.sh
-```
+   ```bash
+   wget https://github.com/bromanla/wireguard-monitor/releases/latest/download/wg-monitor
+   wget https://raw.githubusercontent.com/bromanla/wireguard-monitor/refs/heads/main/entrypoint.sh
+   ```
 
 2. Make files executable:
-
-```bash
-chmod +x wireguard-monitor entrypoint.sh
-```
+   ```bash
+   chmod +x wireguard-monitor entrypoint.sh
+   ```
 
 3. Place files in your project folder (e.g. `/home/yourname/wireguard-monitor`)
 
@@ -55,10 +53,9 @@ chmod +x wireguard-monitor entrypoint.sh
 1. Place your .env file next to the scripts.
 
 2. Run the entrypoint script:
-
-```bash
-./entrypoint.sh
-```
+   ```bash
+   ./entrypoint.sh
+   ```
 
 ## ⏱️ Running via Cron
 

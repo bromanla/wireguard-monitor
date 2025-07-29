@@ -10,7 +10,6 @@ A simple Go tool to monitor your WireGuard traffic and send reports to Telegram.
 - Formats byte counts and last-seen times
 - Sends a summary to your Telegram chat via bot
 
----
 
 ## 🔧 Before you start
 
@@ -20,7 +19,6 @@ You'll need:
 - Telegram bot token (create one with [@BotFather](https://t.me/BotFather))
 - Your Telegram chat ID
 
----
 
 ## 🌐 Environment Variables
 
@@ -34,7 +32,6 @@ Create a `.env` file in your project folder with these:
 
 > **Tip:** If `WG_CONFIG_PATH` is not set, defaults to `/etc/wireguard/wg0.conf`.
 
----
 
 ## 📦 Installation
 
@@ -53,8 +50,6 @@ chmod +x wireguard-monitor entrypoint.sh
 
 3. Place files in your project folder (e.g. `/home/yourname/wireguard-monitor`)
 
----
-
 ## ⚙️ Usage
 
 1. Place your .env file next to the scripts.
@@ -65,8 +60,6 @@ chmod +x wireguard-monitor entrypoint.sh
 ./entrypoint.sh
 ```
 
----
-
 ## ⏱️ Running via Cron
 
 Add this to your crontab (crontab -e):
@@ -76,7 +69,7 @@ Add this to your crontab (crontab -e):
 */30 * * * * /home/yourname/wireguard-monitor/entrypoint.sh
 ```
 
-> 📌 Replace /home/yourname/wireguard-monitor with your actual folder path
+> **Tip:** Replace /home/yourname/wireguard-monitor with your actual folder path
 
 ---
 
